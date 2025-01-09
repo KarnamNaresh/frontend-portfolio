@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  }
+
+.header-text h1 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1rem;
+  text-decoration: underline #00000029;
+}
+
+.logo-for-mobile, .download-button img {
+  display: none;
+}
+
+hr {
+  border: 1px dashed #595959;
+}
+
+@media  (max-width: 576px) {
+  .logo-for-mobile, .download-button img {
+    display: block;
+  }
+  .logo-for-desktop, .download-button button {
+    display: none;
+  }
+  .header-text h1 {
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 12px;
+  }
+
+  header {
+    box-shadow: 0px 1px 2px #00000029;
+  }
+  .arrow-img {
+    display:none;
+  }
+
+  .screenshot-img {
+    max-width: 48%;
+    height: auto;
+}
+
+.body-part {
+  padding: 0 !important;
+}
+
+.steps-content {
+  margin: 0px auto;
+}
+
+footer {
+  border-top: 1px solid #00000029;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .screenshot-img {
+      max-width: 50%;
+      height: auto;
+  }
+}

@@ -1,0 +1,158 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.header-container {
+	background-color: #ffffff;
+	padding: 0.75rem;
+	align-items: center;
+}
+
+.header-text h1 {
+	font-size: 1.25rem;
+	font-family: 'roboto';
+	font-weight: bold;
+	color: #343A40;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.logo-for-mobile,
+.download-button-item img {
+	display: none;
+}
+
+.body-container {
+	border: 1px solid #DEE2E6;
+	border-radius: 10px;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+.sub-heading-item h2 {
+	font-family: 'roboto';
+	font-weight: bold;
+	font-size: 1rem;
+	color: #343A40;
+	text-decoration: underline;
+	padding: .75rem;
+	margin-bottom: 0;
+}
+
+.step1-container,
+.step2-container,
+.step3-container,
+.step4-container {
+	align-items: center;
+	margin: auto;
+	padding-bottom: 1.25rem;
+}
+
+.step1-item img {
+	padding-bottom: 1.25rem;
+}
+
+.step4-img {
+	gap: .5rem;
+}
+
+@media (max-width: 575.9px) {
+	body {
+		background-color: #f1f1f1;
+	}
+
+	.logo-for-mobile,
+	.download-button-item img {
+		display: block;
+	}
+
+	.logo-for-desktop,
+	.download-button-item button {
+		display: none;
+	}
+
+	.pointing-arrow {
+		display: none;
+	}
+
+	.header-container {
+		padding: 0.75rem;
+		box-shadow: 0px 1px 2px #00000029;
+	}
+
+	.header-text h1 {
+		font-size: 1rem;
+		text-align: left;
+		margin-left: 12px;
+	}
+
+	.body-container {
+		border: none;
+		border-radius: 0;
+		margin: auto;
+		padding: 0;
+		position: relative;
+		z-index: 1;
+		top: 70px;
+	}
+
+	.sub-heading-item {
+		position: fixed;
+		z-index: 1;
+	}
+
+	.steps-items {
+		position: relative;
+		top: 60px;
+		z-index: 0;
+		overflow: auto;
+		max-height: calc(100vh - 187px);
+	}
+
+	.step4-img {
+		margin-bottom: 35px;
+	}
+
+	.container-fluid {
+		padding: 0;
+	}
+
+	.header-container {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 2;
+	}
+
+	.sub-heading-item,
+	.steps-items {
+		padding: 0;
+		background-color: #ffffff;
+	}
+
+	footer {
+		background-color: #ffffff;
+		padding: 0.5rem;
+		border-top: 1px solid #CED4DA;
+		position: fixed;
+		bottom: 0;
+		z-index: 1;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+	.app-screenshot {
+		display: flex;
+		justify-content: center;
+		max-width: 50%;
+		height: auto;
+	}
+}
