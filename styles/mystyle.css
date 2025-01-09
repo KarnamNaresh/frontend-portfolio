@@ -124,13 +124,10 @@ body {
   .step2-container button {
     margin-bottom: 25px;
   }
-.step1-item p, .step2-item p, .step3-item p, .step4-item p {
-  margin-bottom: 20px;
-}
 
-	.step4-img {
-		margin-bottom: 35px;
-	}
+  .step4-container {
+    margin-bottom: 35px;
+  }
 
 	.container-fluid {
 		padding: 0;
