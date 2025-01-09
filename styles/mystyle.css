@@ -64,6 +64,10 @@ body {
 	gap: .5rem;
 }
 
+.step4-img {
+  margin-bottom: 30px;
+}
+
 @media (max-width: 575.9px) {
 	body {
 		background-color: #f1f1f1;
@@ -116,6 +120,13 @@ body {
 		overflow: auto;
 		max-height: calc(100vh - 187px);
 	}
+
+  .step2-container button {
+    margin-bottom: 25px;
+  }
+.step1-item p, .step2-item p, .step3-item p, .step4-item p {
+  margin-bottom: 20px;
+}
 
 	.step4-img {
 		margin-bottom: 35px;
